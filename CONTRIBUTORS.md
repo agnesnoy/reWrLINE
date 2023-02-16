@@ -7,6 +7,8 @@ in any derivative works.
 # reWrLINE
 
 * George D. Watson (https://github.com/georgewatson)
+* Elliot W. Chan 
+* Tania S. Gardasevic
 
 # WrLINE
 
