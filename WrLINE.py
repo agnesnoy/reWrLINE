@@ -13,7 +13,7 @@ reWrLINE: A reimplementation of WrLINE
 https://georgewatson.me
 
 With contribution from
-Elliot Chan and Tania Gardasevic.
+Elliot Chan and Tania Gardašević.
 
 Based on WrLINE
 by Thana Sutthibutpong, Sarah Harris, and Agnes Noy.
