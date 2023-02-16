@@ -98,16 +98,16 @@ on GitHub.
 The easiest way to obtain
 a copy of reWrLINE
 is by cloning the
-[`georgewatson/reWrLINE`](https://github.com/agnesnoy/reWrLINE)
+[`agnesnoy/reWrLINE`](https://github.com/agnesnoy/reWrLINE)
 git repository
 using one of the below methods:
 
 ```sh
-git clone git@github.com:georgewatson/reWrLINE.git
+git clone git@github.com:agnesnoy/reWrLINE.git
 ```
 
 ```sh
-git clone https://github.com/georgewatson/reWrLINE.git
+git clone https://github.com/agnesnoy/reWrLINE.git
 ```
 
 By regularly checking the origin for new commits,
