@@ -46,7 +46,7 @@ def main(name, num_bp, num_steps, linear=False, write=True):
     # Calculate writhe for num_steps timesteps
     wr = []
     for t in range(num_steps):
-        print(f"\r\tStep {t}...", end=" ")
+        print(f"\r\tStep {t+1}...", end=" ")
         wr.append([t+1, writhe(coords, t, length, linear)])
     wr = np.array(wr)
     if write:
