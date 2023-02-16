@@ -90,7 +90,7 @@ manually.
 If reWrLINE does not work correctly
 on your system,
 please
-[open an issue](https://github.com/georgewatson/reWrLINE/issues)
+[open an issue](https://github.com/agnesnoy/reWrLINE/issues)
 on GitHub.
 
 ### Downloads
@@ -98,7 +98,7 @@ on GitHub.
 The easiest way to obtain
 a copy of reWrLINE
 is by cloning the
-[`georgewatson/reWrLINE`](https://github.com/georgewatson/reWrLINE)
+[`georgewatson/reWrLINE`](https://github.com/agnesnoy/reWrLINE)
 git repository
 using one of the below methods:
 
@@ -115,7 +115,7 @@ you can ensure that your copy is always up to date.
 
 Alternatively,
 stable releases are available for download
-[via GitHub](https://github.com/georgewatson/reWrLINE/releases),
+[via GitHub](https://github.com/agnesnoy/reWrLINE/releases),
 but these may lack the newest features
 and must be upgraded manually.
 
@@ -151,7 +151,7 @@ ensure that:
 * Your Python 3 environment is otherwise functioning normally
 
 If the tests are still failing,
-[open an issue](https://github.com/georgewatson/reWrLINE/issues)
+[open an issue](https://github.com/agnesnoy/reWrLINE/issues)
 on GitHub.
 
 ## Running reWrLINE
@@ -185,7 +185,7 @@ something has broken.
 Check the command line arguments
 and your Python environment,
 and
-[open an issue](https://github.com/georgewatson/reWrLINE/issues)
+[open an issue](https://github.com/agnesnoy/reWrLINE/issues)
 on GitHub
 if you get stuck.)
 
