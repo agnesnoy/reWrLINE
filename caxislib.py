@@ -153,7 +153,7 @@ def make_files(name, num_bp, num_steps, midpoints, caxis):
         for i in range(num_steps):
             c_xyz.write(f"{num_bp}\n\n")
             c1_xyz.write(f"{num_bp}\n\n")
-            print(f"\r\tStep {i}...", end=" ")
+            print(f"\r\tStep {i+1}...", end=" ")
             for j in range(num_bp):
                 c_xyz.write(" ".join(["H",
                                       f"{midpoints[0][i][j]:8.3f}",
@@ -182,7 +182,7 @@ def sinreg(name, num_bp, num_steps, midpoints, caxis, write=True):
     """
     result = np.zeros((num_steps, num_bp + 1))
     for j in range(num_bp):
-        print(f"\r\tBase pair {j}...", end=" ")
+        print(f"\r\tBase pair {j+1}...", end=" ")
         m = list(map(int, np.linspace(j-1, j+1, num=3) % num_bp))
         # Vectors bent on a plane
         v0 = caxis[:, :, m[1]] - caxis[:, :, m[0]]
@@ -214,7 +214,7 @@ def helix_axis(num_bp, num_steps, midpoints, strand_a, linear=False):
     """
     result = np.zeros(np.shape(strand_a))
     for j in range(num_bp):
-        print(f"\r\tBase pair {j}...", end=" ")
+        print(f"\r\tBase pair {j+1}...", end=" ")
         # Summation of coordinates
         summation = np.zeros((3, num_steps))
         for t in range(num_steps):
@@ -246,7 +246,7 @@ def full_twist(name, num_bp, num_steps, strand_a, strand_b, haxis,
     """
     result = np.zeros((num_steps, num_bp))
     for j in range(num_bp):
-        print(f"\r\tBase pair {j}...", end=" ")
+        print(f"\r\tBase pair {j+1}...", end=" ")
         for t in range(num_steps):
             # Linear special cases
             if linear:
@@ -288,7 +288,7 @@ def caxis(name, num_bp, num_steps, midpoints, tw, linear=False):
     """
     result = np.zeros(np.shape(midpoints))
     for j in range(num_bp):
-        print(f"\r\tBase pair {j}...", end=" ")
+        print(f"\r\tBase pair {j+1}...", end=" ")
         total_twist = np.zeros(num_steps)
         summation = np.zeros((3, num_steps))
         for t in range(num_steps):
