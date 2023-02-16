@@ -12,6 +12,9 @@ reWrLINE: A reimplementation of WrLINE
 (c) 2019 George D. Watson, University of York
 https://georgewatson.me
 
+With contribution from
+Elliot Chan and Tania Gardasevic.
+
 Based on WrLINE
 by Thana Sutthibutpong, Sarah Harris, and Agnes Noy.
 Please cite
@@ -43,7 +46,7 @@ os.system('\n'.join(['cpptraj <<EOF',
                      f'parm {top}',
                      f'trajin {traj}',
                      "strip !(@C1') outprefix C1",
-                     f'trajout {name}/C.mdcrd',
+                     f'trajout {name}/C.mdcrd crd nobox',
                      'EOF']))
 
 print(f"Processing {name}")
