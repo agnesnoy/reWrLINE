@@ -62,7 +62,7 @@ the following CPPTRAJ script:
   parm <topology_filename>
   trajin <trajectory_filename>
   strip !(@C1') outprefix C1
-  trajout <path>/C.mdcrd
+  trajout <path>/C.mdcrd crd nobox
 ```
 
 The test suite looks slightly nicer
